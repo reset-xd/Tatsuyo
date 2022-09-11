@@ -1,6 +1,9 @@
-# Tatsuyo
-
-<img src="https://github.com/reset-xd/Tatsuyo/blob/main/assets/Tatsuyo.png?raw=true">
+<a href="https://github.com/reset-xd/Tatsuyo">
+  <img src="https://github.com/reset-xd/Tatsuyo/blob/main/assets/Tatsuyo.png?raw=true">
+</a>
+<h1 align="center">
+  Tatsuyo
+ </h1>
 
 [![version - 0.1.0](https://img.shields.io/badge/version-0.1.0-blue?style=for-the-badge)](https://github.com/reset-xd/Tatsuyo/)
 [![status - development](https://img.shields.io/badge/status-development-red?style=for-the-badge)](https://github.com/reset-xd/Tatsuyo/)
