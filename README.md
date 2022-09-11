@@ -7,7 +7,7 @@
 [![dependency - disnake](https://img.shields.io/badge/dependency-disnake-blue)](https://pypi.org/project/disnake)
 
 
-Hi my name is Tatsuyo, i am a discord bot that will help you with your anime watching journey by providing you with a lot of cool commands!
+Hi my name is Tatsuyo, i am a discord bot that will help you with your anime watching journey by providing you with a lot of cool and useful commands!
 
 **A discord bot purely for anime watchers and enthusiast.**
 
