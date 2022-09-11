@@ -1,5 +1,7 @@
 # Tatsuyo
 
+<img src="https://github.com/reset-xd/Tatsuyo/blob/main/assets/Tatsuyo.png?raw=true">
+
 [![version - 0.1.0](https://img.shields.io/badge/version-0.1.0-blue?style=for-the-badge)](https://github.com/reset-xd/Tatsuyo/)
 [![status - development](https://img.shields.io/badge/status-development-red?style=for-the-badge)](https://github.com/reset-xd/Tatsuyo/)
 
@@ -27,3 +29,8 @@ Just by simply using my commands helps me a lot and motivates me to work and imp
 Try All the commands and if you find any error please open up an issue here or message me on discord! resetxd#XXXX
 
 You should <a href="">invite me</a>
+
+
+## CREDITS
+
+Temporary banner thanks to <a href="https://www.deviantart.com/riki-to">riki-to</a>'s artwork
