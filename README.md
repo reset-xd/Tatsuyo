@@ -1,5 +1,5 @@
 <a href="https://github.com/reset-xd/Tatsuyo">
-  <img src="https://github.com/reset-xd/Tatsuyo/blob/main/assets/Tatsuyo.png?raw=true">
+  <img src="https://raw.githubusercontent.com/reset-xd/Tatsuyo/main/assets/Tatsuyo%20banner.png">
 </a>
 
 #  Tatsuyo
@@ -35,4 +35,4 @@ You should <a href="">invite me</a>
 
 ## CREDITS
 
-Temporary banner thanks to <a href="https://www.deviantart.com/riki-to">riki-to</a>'s artwork
+banner and avatar taken from <a href="https://twitter.com/luna_nyann/status/1563805450029891584">here</a>
