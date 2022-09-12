@@ -56,3 +56,15 @@ You can suggest features [here](https://discord.gg/RCCQJmqxgn)
 `PS: I am still in development so please be patient`
 """
         return self.embed
+
+
+class AnimeEmbedMAL:
+
+    def __init__(self, data)->None:
+        pass
+
+
+class AnimeEmbedAniList:
+
+    def __init__(self, data)->None:
+        pass

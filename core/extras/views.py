@@ -17,3 +17,9 @@ class MeView(View):
     @button(label="Support", style=ButtonStyle.green)
     async def support(self, button, interaction):
         await interaction.response.edit_message(embed=self.embed.support())
+
+class AnimeViewMAL(View):
+    pass
+
+class AnimeViewAniList(View):
+    pass
