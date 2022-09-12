@@ -1,6 +1,6 @@
 import disnake
-from extras.embeds import MeEmbed
-from extras.views import MeView
+from core.extras.embeds import MeEmbed
+from core.extras.views import MeView
 from disnake.ext import commands
 
 class AboutMe(commands.Cog):
