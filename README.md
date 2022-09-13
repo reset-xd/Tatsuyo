@@ -28,7 +28,7 @@ check <a href="https://github.com/orgs/reset-xd/projects/1/">projects tab</a> fo
 
 Just by simply using my commands helps me a lot and motivates me to work and improve more!
 
-Try All the commands and if you find any error please open up an issue here or message me on discord! resetxd#XXXX
+Try All the commands and if you find any error please open up an issue here or message me on discord! resetxd#8278
 
 You should <a href="">invite me</a>
 
