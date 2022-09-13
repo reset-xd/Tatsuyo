@@ -13,14 +13,10 @@ class Anime(commands.Cog):
         return
     
     @anime_root.sub_command(name="search", description="Search for an anime")
-    async def anime_search(self, ctx:disnake.ApplicationCommandInteraction, anime_name:str=None, anime_id:int=None):
-        if anime_name is None and anime_id is None:
-            await ctx.send("Please provide either an anime name or id", ephemeral=True)
-            return
-        lookup = anime_id or anime_name
+    async def anime_search(self, ctx:disnake.ApplicationCommandInteraction, anime_name:str):
         await ctx.response.defer()
         
-        data = await anisearch(lookup)
+        data = await anisearch(anime_name)
         embed = AnimeEmbedSearch(data)
         view = AnimeViewSearch(embed)
 
