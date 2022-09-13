@@ -1,4 +1,4 @@
-from disnake.ui import View, button
+from disnake.ui import View, button, Button
 from disnake import ButtonStyle
 
 class MeView(View):
@@ -18,8 +18,27 @@ class MeView(View):
     async def support(self, button, interaction):
         await interaction.response.edit_message(embed=self.embed.support())
 
-class AnimeViewMAL(View):
-    pass
+class AnimeViewSearch(View):
+    
+    def __init__(self, embedclass):
+        super().__init__()
+        self.embed = embedclass
 
-class AnimeViewAniList(View):
-    pass
+    @button(emoji="⏪", style=ButtonStyle.green)
+    async def left(self, button, interaction):
+        self.embed.left()
+        await interaction.response.edit_message(embed=self.embed.get_search())
+
+    @button(emoji="⏩", style=ButtonStyle.green)
+    async def right(self, button, interaction):
+        self.embed.right()
+        await interaction.response.edit_message(embed=self.embed.get_search())
+
+    @button(label="More Info", style=ButtonStyle.green)
+    async def anilist(self, button, interaction):
+        self.embed.open()
+        await interaction.response.edit_message(embed=self.embed.get_embed())
+
+    @button(label="Review", style=ButtonStyle.green)
+    async def support(self, button, interaction):
+        await interaction.response.edit_message(embed=self.embed.support())
