@@ -16,8 +16,6 @@ async def on_ready():
     print(f"Logged in as {client.user}")
 # endregion [Events]
 
-for filename in os.listdir("./commands"):
-    if filename.endswith(".py"):
-        client.load_extensions(f"commands")
+client.load_extensions(f"commands")
 
 client.run(token)
