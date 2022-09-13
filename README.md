@@ -4,7 +4,7 @@
 
 #  Tatsuyo
 
-[![version - 0.1.0](https://img.shields.io/badge/version-0.1.0-blue?style=for-the-badge)](https://github.com/reset-xd/Tatsuyo/)
+[![version - 0.1.1](https://img.shields.io/badge/version-0.1.1-blue?style=for-the-badge)](https://github.com/reset-xd/Tatsuyo/)
 [![status - development](https://img.shields.io/badge/status-development-red?style=for-the-badge)](https://github.com/reset-xd/Tatsuyo/)
 
 [![Made with Python](https://img.shields.io/badge/Python->=3.8-blue?logo=python&logoColor=white)](https://python.org "Go to Python homepage")
