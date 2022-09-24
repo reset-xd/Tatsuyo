@@ -13,7 +13,7 @@ class Anime(commands.Cog):
         return
     
     @anime_root.sub_command(name="search", description="Search for an anime")
-    async def anime_search(self, ctx:disnake.ApplicationCommandInteraction, anime_name:str):
+    async def anime_search(self, ctx:disnake.ApplicationCommandInteraction, anime_name:str = commands.Param(description="Name of the anime")):
         await ctx.response.defer()
         
         data = await anisearch(anime_name)

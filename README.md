@@ -22,7 +22,12 @@ check <a href="https://github.com/orgs/reset-xd/projects/1/">projects tab</a> fo
 
 # CURRENT COMMANDS
 
-- `/anime search anime_name:str` => search for an anime and read more info on it
+<details>
+
+<summary>search for anime</summary>
+
+
+</details>
 
 # SUPPORT BOT
 

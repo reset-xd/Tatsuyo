@@ -62,7 +62,7 @@ class Nhentai(commands.Cog):
                     embed.add_field(name="artist", value=f"`{'` `'.join([x.name for x in nh.artist])}`")      
                     user1 = await self.client.fetch_user(user["_id"])
                     try:
-                        await user1.send(f"**{user1.name}**-sama, a new doujin is posted with the tags: ``\nhere is the link : {nh.url}")
+                        await user1.send(embed=embed, view=view)
                         await self.client.db.update_one({"_id": user1.id}, {"$set": {"last": nh.id}}, True)
                     except:
                         channel: disnake.TextChannel = await self.client.fetch_channel(user["channel"])
