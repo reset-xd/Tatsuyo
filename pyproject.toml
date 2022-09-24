@@ -7,6 +7,7 @@ authors = ["ResetXD <resetwastakenwastaken@gmail.com>"]
 [tool.poetry.dependencies]
 python = ">=3.8"
 disnake = "^2.5.2"
+hentai = {git = "https://github.com/ResetXD/hentai"}
 
 [tool.poetry.dev-dependencies]
 

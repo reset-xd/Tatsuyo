@@ -22,10 +22,5 @@ class Anime(commands.Cog):
 
         await ctx.send(embed=embed.get_search(), view=view)
 
-
-
-
-
-
 def setup(client):
     client.add_cog(Anime(client))
