@@ -50,6 +50,7 @@ class Nhentai(commands.Cog):
         data = await data.to_list(length=1000)
         for user in data:
             userlast = list_spliter(nhentai, user["last"])
+            userlast = userlast[::-1]
             for nh in userlast:
                 check = any(x in user["tag"] for x in nh.tag)
                 view = Reader(nh.url)
